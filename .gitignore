@@ -1,2 +1,4 @@
 *.jpg
 datasets
+test
+.ipynb_checkpoints
