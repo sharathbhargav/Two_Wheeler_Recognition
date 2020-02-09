@@ -1,4 +1,4 @@
 *.jpg
-datasets
-test
-.ipynb_checkpoints
+DL/datasets
+DL/test
+*.ipynb_checkpoints
