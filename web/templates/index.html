@@ -1,0 +1,26 @@
+<html>
+    <head lang="en">
+        <meta charset="UTF-8">
+    
+        <title>Two Wheeler Image recogition</title>
+    
+    </head>
+    <body>
+        <div class="container py-5">
+        
+            <form class="md-form">
+                <div class="file-field">
+                  <div class="btn btn-primary btn-sm float-left">
+                    <span>Choose file</span>
+                    <input type="file">
+                  </div>
+                  <div class="file-path-wrapper">
+                    <input class="file-path validate" type="text" placeholder="Upload your file">
+                  </div>
+                </div>
+              </form>
+    </body>
+    <link href="{{ url_for('static', filename='css/bootstrap.css') }}" rel="stylesheet">
+    <script src="{{ url_for('static', filename='js/jquery-3.4.1.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/bootstrap.js') }}" ></script>
+</html>
