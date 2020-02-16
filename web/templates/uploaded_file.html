@@ -1,0 +1,10 @@
+<html>
+    <body>
+        <img src="/static/images/{{filename}}" alt="alternate" height="400" width="500"/>.
+        <p>Class = {{ pred_class }}</p>
+
+        <form method='GET' action="/clean_up/{{filename}}">
+            <input type=submit value=Back>
+        </form>
+    </body>
+</html>

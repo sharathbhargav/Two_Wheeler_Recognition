@@ -2,3 +2,4 @@
 DL/datasets
 DL/test
 *.ipynb_checkpoints
+*.pkl
